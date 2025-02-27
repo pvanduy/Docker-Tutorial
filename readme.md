@@ -39,7 +39,7 @@ $ docker run -it ubuntu bash
 # List running containers
 $ docker ps
 ```
-For a complete list of commands, check out the [basic-commands](basic-commands.md) file.
+For a complete list of commands, check out the [basic-commands](basic_command/basic-commands.md) file.
 
 ## 🏗 Working with Dockerfiles
 A **Dockerfile** is a script that contains instructions to build a Docker image. Example:
