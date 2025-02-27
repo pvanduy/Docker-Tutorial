@@ -39,7 +39,7 @@ $ docker run -it ubuntu bash
 # List running containers
 $ docker ps
 ```
-For a complete list of commands, check out the [basic-commands.md](basic-commands.md) file.
+For a complete list of commands, check out the [basic-commands](basic-commands.md) file.
 
 ## 🏗 Working with Dockerfiles
 A **Dockerfile** is a script that contains instructions to build a Docker image. Example:
@@ -48,7 +48,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y curl
 CMD ["bash"]
 ```
-Check out the [Dockerfile-examples](Dockerfile-examples/) directory for more.
+Check out the [Dockerfile-examples](basic_command/dockerfile-examples.md) file for more.
 
 ## 📦 Docker Compose
 Docker Compose allows you to define multi-container applications. Example `docker-compose.yml`:
@@ -60,7 +60,7 @@ services:
     ports:
       - "8080:80"
 ```
-Find more examples in the [docker-compose-examples](docker-compose-examples/) directory.
+Find more examples in the [docker-compose-examples](basic_command/docker-compose-examples.md) file.
 
 ## ✅ Best Practices
 - Use small, optimized base images (e.g., `alpine`)
@@ -69,7 +69,7 @@ Find more examples in the [docker-compose-examples](docker-compose-examples/) di
 - Leverage `.dockerignore` to exclude unnecessary files
 
 ## 🔧 Troubleshooting
-If you encounter issues, check out [troubleshooting.md](troubleshooting.md) for common problems and solutions.
+If you encounter issues, check out [docker-troubleshoot.md](docker-troubleshoot.md) for common problems and solutions.
 
 ---
-🛠 **Happy Dockering!** 🚀
+🛠 **Docker-Tutorial !!!** 🚀
