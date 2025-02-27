@@ -3,13 +3,13 @@
 This document covers essential Docker commands that will help you get started with Docker.
 
 ## 📌 Table of Contents
-- [Docker Version](#docker-version)
-- [Working with Images](#working-with-images)
-- [Managing Containers](#managing-containers)
-- [Container Logs](#container-logs)
-- [Networking](#networking)
-- [Volumes](#volumes)
-- [Cleanup](#cleanup)
+- [Docker Version](#-docker-version)
+- [Working with Images](#-working-with-images)
+- [Managing Containers](#-managing-containers)
+- [Container Logs](#-container-logs)
+- [Networking](#-networking)
+- [Volumes](#-volumes)
+- [Cleanup](#-cleanup)
 
 ## 🛠 Docker Version
 Check your installed Docker version:
